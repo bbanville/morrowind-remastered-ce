@@ -1,0 +1,45 @@
+********************************************************************
+TES3: MORROWIND
+AST_BetterMenuBook&Scroll
+First Release
+-Aisis
+		
+********************************************************************
+1. Installation
+2. Backup!!
+3. Uninstall
+4. Credits
+********************************************************************
+1. Installation
+
+Unzip and copy the Textures folder into your Morrowind\Data Files
+folder. There is an optional texture for the scroll with a burned
+look, you can use it, if you prefer this style.
+
+********************************************************************
+2. Backup!!
+
+If you allready use any other repleacers of this textures, don`t
+forget to make a beckup of them.
+
+********************************************************************
+3. Uninstall
+
+Delete the following files from the Textures folder:
+
+scroll.dds
+Tx_menubook.dds
+Tx_menubook_bookmark.dds
+
+
+********************************************************************
+5. Credits
+
+All textures are made by me. The scroll textures are a retex from
+Oblivion scroll textures.
+
+Feel free to use this any way you see fit. It may be used in any mod, 
+just give me a small credit.
+Obviously, I am not responsible for any changes you make to the 
+files. Should you make a change for public release, give the credit
+to yourself only.

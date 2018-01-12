@@ -1,0 +1,16 @@
+	Baldurians Ebony Mail Replacer
+		Mod for Morrowind, Author Baldurian
+	
+1 - Installation
+2 - Description
+3 - Credits
+
+	1 - Installation
+
+Install into the Data Files folder and activate the esp-file.
+
+	2 - Description
+	
+This mod replaces the textures and meshes of the Ebony Mail artifact.
+
+	3 - Credits

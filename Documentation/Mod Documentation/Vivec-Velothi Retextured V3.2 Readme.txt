@@ -1,0 +1,30 @@
+The files contained within replace the Vivec and Velothi textureS.
+
+
+
+Fixes:
+
+Removed erroneous alpha channel from some of the textures. If you could see little white specks (holes) in parts of the buildings this update will fix the problem. 
+
+Set file path so that those who use BAIN can install or remove more easily.
+
+Added building textures that were not changed from V2 but were not included in the V3 pack.
+
+
+
+Note:
+
+Statues and UV fixes for the buildings from V2 are not included in this pack. I plan to remodel the statues from scratch at some point, and fix some other issues with the buildings before I make any update with those included.
+
+
+
+Installation:
+
+DDS files go into your Morrowind> Data Files> Textures folder. 
+
+
+
+Permissions:
+
+The textures are free use for anything that is Elder Scrolls related. 
+
