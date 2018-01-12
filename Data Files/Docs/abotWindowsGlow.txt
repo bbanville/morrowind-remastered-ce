@@ -1,0 +1,172 @@
+The Elder Scrolls III MORROWIND: 
+
+Windows glow expansion
+
+by abot
+
+Tribunal/GOTY engine required
+
+
+VERSION HISTORY:
+
+1.10
+- compatible with Tamriel Rebuilt Sacred East v 1.5
+- added windows for Tamriel Rebuilt Indoril architecture (Akamora, Bosmora etc... )
+
+1.9
+- fixed interior lights updating only on cellchange 
+- added ab01wgIntLightsOff global variable
+
+1.8
+- updated for compatibility with Tamriel Rebuilt - Sacred East v1.2
+- fixed a light placing bug in abotWindowsGlowTR.esp, now it should be rock
+solid and with much better framerate 
+
+1.7b
+- updated readme/loading info
+
+1.7
+- updated for compatibility with Tamriel Rebuilt - Sacred East v1.1
+
+1.6
+- updated for compatibility with Tamriel Rebuilt - Sacred East 
+
+1.5b
+- removed abotWindowsGlowTR.esp due to found incompatibilities.
+
+1.5
+- fixed a potential crashing
+
+1.4
+- added imperial/nord style Tamriel Rebuilt exterior (and a few interior) windows
+- improved configuration via ab01wgLightsOff variable
+- radius and intensity of light emitted by windows decreased a little 
+
+1.3
+- fixed a window being replaced by a different version (thanks Orc49152,
+you really got the eye of the beholder!)
+
+1.2
+- fixed transparency problem with ex_nord_win_02 replacement meshes, 
+window glass should disappear no more when player is very near
+
+1.1
+- changed scripts to never delete non illuminated windows, should be less
+sensible to mod reordering.
+
+1.0
+First release
+
+
+USAGE:
+
+load order without Tamriel Rebuilt installed should be:
+Windows Glow.esp
+Windows Glow - Tribunal Eng.esp
+Windows Glow - Bloodmoon Eng.esp
+Windows Glow - Raven Rock Eng.esp
+abotWindowsGlow.esp
+
+load order with Tamriel Rebuilt installed should be:
+TR_Data.esm
+TR_Mainland.esm
+Windows Glow.esp
+Windows Glow - Tribunal Eng.esp
+Windows Glow - Bloodmoon Eng.esp
+Windows Glow - Raven Rock Eng.esp
+abotWindowsGlow.esp
+abotWindowsGlowTR.esp
+
+abotWindowsGlowTR.esp REQUIRES Windows Glow.esp, Windows Glow - Tribunal Eng.esp loaded and related resources installed
+
+
+DESCRIPTION:
+Replaces some nord and imperial style with scripted dynamic glowing windows
+& lights, affecting mostly Seyda Neen, Pelagiad, Caldera, Dagon Fel.
+Tamriel Rebuilt version affects also Helnim, Firewatch, Bal Oyra etc.
+
+Compatible/expansion to Windows Glow by Max a.k.a. ~NOBODY~
+Compatible with Spuzzum's interior daylights, though both mods will add
+lights to interiors.
+
+The mod can be used alone, but it works better as expansion to
+Windows Glow, especially in Pelagiad and Caldera.
+
+
+RELATED/SUGGESTED MODS:
+
+Windows Glow by Max a.k.a. ~NOBODY~
+http://mw.modhistory.com/download-53-442
+
+Windows Glow - Tribunal V 1.1 by Colt17
+http://mw.modhistory.com/download-53-12181
+
+Windows Glow - Bloodmoon (now with Raven Rock) by Colt17
+http://mw.modhistory.com/download-56-6231
+
+Fixed tavern mesh for Windows Glow 2.2 by Dragon32
+http://mw.modhistory.com/download-53-6563
+
+Windows Glow Texture Tweaks by Acrilix
+http://mw.modhistory.com/download-53-6299
+
+Spuzzum's Interior Daylight by Spuzzum
+http://mw.modhistory.com/download-31-8941
+
+Tamriel Rebuilt Map 3 - Sacred East V1.5 by Tamriel Rebuilt Team
+http://morrowind.nexusmods.com/mods/42145/?tab=2&navtag=%2Fajax%2Fmodfiles%2F%3Fid%3D42145&pUp=1
+
+
+CREDITS:
+
+meshes in WGlow folder, textures & original concept: Max a.k.a. ~NOBODY~
+textures: Acrilix
+exterior lights inspiration : Zich
+
+I have used also a tx_glass_reena_01 texture, can't find from what mod/resource it comes
+from, if you know, please inform me.
+
+
+NOTES:from version 1.7b abotWindowsGlowTR.esp does not include 
+abotWindowsGlow.esp anymore, you have to load both.
+Sorry, but this really helps me with updates when TR_Mainland.esm changes.
+
+Mods like abotWindowsGlowTR.esp replacing many object references need to be properly updated when masters change.
+I will try to release a updated abotWindowsGlowTR.esp as soon as possible when a new version of TR_Mainland.esm is released,
+but in the meantime you may want to use Mash replacers to update abotWindowsGlowTR.esp.
+Here is the procedure:
+1. extract/install new released TR_Mainland.esm as TR_Mainland_new.esm (do NOT overwrite/replace the old TR_Mainland.esm)
+2. in Mash, right click TR_Mainland_new.esm, Updaters..., remove any updater already present in the list, add the old TR_Mainland.esm
+3. in Mash, click abotWindowsGlowTR.esp having old TR_Mainland.esm as master, right click TR_Mainland.esm on the File column to the right,
+ Change to... TR_Mainland_new.esm, click save button below. This way hopefully Mash will be able to remap changed references correctly.
+4. copy new TR_Mainland_new.esm over old TR_Mainland.esm
+5. click click abotWindowsGlowTR.esp, right click TR_Mainland_new.esm on the File column to the right, Change to... TR_Mainland.esm, click save button below.
+If you are interested in more details, see
+http://abitoftaste.altervista.org/morrowind/index.php?option=content&Itemid=10&task=view&id=79&-Morrowind-modding-for-smarties-part-8-when-masters-change
+
+
+Tech info / tweaks:
+For better frame rate, it is suggested to try disabling some of the dynamic lights while keeping
+the glow effect
+
+open the game console and enter:
+
+set ab01wgLightsOff to 1
+to randomly skip 75% of lights (general suggested setting),
+
+set ab01wgLightsOff to 2
+to completely skip lights
+
+set ab01wgIntLightsOff to 1
+to skip interior lights.
+
+To see and debug placed lights markers, type
+set ab01debug to 26
+
+setting values back to 0 will reset to default behaviour (all lights on, debug off)
+
+
+Enjoy!
+
+You can usually find me at Elder Scrolls Forums
+
