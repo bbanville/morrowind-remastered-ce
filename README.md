@@ -1,2 +1,2 @@
-# morrowind-remastered-ce
-A Community Remastering of the 2002 Classic, The Elder Scrolls III: Morrowind
+# Morrowind Remastered Community Edition
+For more info go here -> http://www.brendonbanville.com/morrowind-remastered-community-edition/
