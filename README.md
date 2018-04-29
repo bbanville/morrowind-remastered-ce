@@ -1,7 +1,7 @@
 # Morrowind Remastered Community Edition
 For more info go here -> http://www.brendonbanville.com/morrowind-remastered-community-edition/
 
-                                                  CONTENTS
+                                                       CONTENTS                                                       
 1) Overview
 2) Instructions
 3) Credits
@@ -10,7 +10,7 @@ For more info go here -> http://www.brendonbanville.com/morrowind-remastered-com
 
 1 - Overview
 
-Tg
+Morrowind Remastered Community Edition is a collection of mods, tweaks, configurations, and overhauls made by the morrowind modding community that help bring The Elder Scrolls III: Morrowind into the modern era of gaming by adding fixing everything wrong with the original and keeping everything that made the original good intact and overhauled.
 
 -------------------------------------------------------------------------------------------------------
 
